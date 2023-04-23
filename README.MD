@@ -1,6 +1,6 @@
 # Open AI Whisper Docker
 
-A minimal docker image that provides an Open AI Whisper API for fast speech to text.
+This is a compact Docker image that offers an Open AI Whisper API for quick and efficient speech-to-text conversion.
 
 ## Usage
 
