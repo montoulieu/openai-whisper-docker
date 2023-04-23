@@ -17,7 +17,8 @@ docker run -p 5000:5000 openai-whisper
 ```
 
 ### Test
+You can test the API by sending a POST request to the route http://localhost:5000/whisper with a file in it. Body should be form-data.
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"text":"Hello World"}' http://localhost:5000
+curl -F "file=@/path/to/file" http://localhost:5000/whisper
 ```
