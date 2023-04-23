@@ -13,8 +13,8 @@ model = whisper.load_model("base", device=DEVICE)
 app = Flask(__name__)
 
 @app.route("/")
-def hello():
-    return "Whisper Hello World!"
+def test():
+    return "Whisper API Working!"
 
 @app.route('/whisper', methods=['POST'])
 
