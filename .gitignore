@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+**pycache**/
+_.py[cod]
+_$py.class
+
+# Distribution / packaging
+dist/
+build/
+\*.egg-info/
+
+# IDEs and editors
+.vscode/
+.idea/
+\*.pyc
+
+# Local development settings
+.env
+
+# Dependencies
+venv/
+env/
+lib/
+bin/
+
+# Documentation
+docs/\_build/
+doc/source/api/
+
+# Compiled Python modules
+_.pyd
+_.pyo
+
+# Miscellaneous
+_.bak
+_.swp
+_.tmp
+_.log
+_.cache
+_.DS_Store
